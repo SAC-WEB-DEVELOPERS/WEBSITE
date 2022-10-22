@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.history-head{
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(#.jpg);
+	background-color: #006400;
+    height: 100%;
+    width: 100%;  
+    background-size:cover;
+    background-position:center;
+    position: relative;
+}
+nav{
+	display:flex;
+	padding: 1.5% 4%;
+	justify-content: space-between;
+	align-items:center;
+}
+nav img{
+	width:51px;
+    height: 50px;
+}
+.nav-links-sac{
+	flex: 1;
+	text-align: right;
+	margin-left: 1000px;
+	font-family: consolas;
+	display: inline-block;
+}
+.nav-links-sac ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0.2% 1%;
+	padding-left: 2%;
+	position: relative;
+	padding: 2px 5px;
+}
+.nav-links-sac ul li a{
+	align-items: center;
+	color: #52df00;
+	text-decoration: none;
+	font-size: 13px;
+	display: inline-flex;
+	text-decoration: none;
+	border: 15px transparent;
+	border-radius: 8px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.nav-links-sac ul li a:hover{
+	border:15px solid #ffd500;
+	background: #ffd500;
+	color: #006400;
+	transition: 0.3s;
+	margin: auto;
+}
+.history-head hr{
+	color: #fff;
+	width: 100%;
+	size: 0.1px;
+}
+/* Additional Codes #52df00
+.nav-links-sac ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #ffd700;
+	display: inline-block/block;
+	margin: auto;
+	transition: 0.5s;
+}
+*/   For Help 
+
+.nav-links-sac ul li:hover::after{
+	width: 100%;
+}
+                        /* Text Adding Box Starts At Here */
+.history-box{
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	top: 20%; /* From Top to 20% We Located "School's History" Text */
+	left: 50%; /* From Left (Centered) to 20% We Located "School's History" Text */
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+                       /* About School's History Text Styling! */
+.history-box h2{
+	font-size: 52px;
+	text-align: center;
+	margin-right: 20%;
+	margin-left: 32%;
+}
